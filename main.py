@@ -54,7 +54,7 @@ def logout(driver: uc.Chrome):
     driver.delete_all_cookies()
 
 
-email = ask('Enter your GMAIL address: ').split('@')[0].replace('.', '')
+email = ask('noobis.mm@gmail.com').split('@')[0].replace('.', '')
 write(
     f'That email address will be able to create {2**len(email)//2} accounts.')
 numaccounts = int(
